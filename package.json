@@ -1,0 +1,17 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://milosmakaveli.github.io/myportfolio",
+  "scripts": {
+    "deploy":"gh-pages -d dist",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Milos Marjanovic",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  }
+}
