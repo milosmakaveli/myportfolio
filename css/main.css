@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/potrait.jpg);
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 4px #5B007B; }
   .menu .nav-item {
@@ -100,7 +100,7 @@ body {
   font-family: "font-family: " Roboto ", sans-serif";
   line-height: 1.5; }
   body#background-img {
-    background: url(/dist/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#background-img:after {
